@@ -1,0 +1,730 @@
+@import url("fontawesome-all.min.css");
+
+html {
+    scroll-behavior: smooth;
+}
+
+#page {
+    font-family: Monserrat, Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+h1,
+h5 {
+    color: #fbad27;
+    line-height: 2em;
+    font-family: "MontSerrat";
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h6 {
+    color: white;
+    line-height: 2em;
+    font-family: "MontSerrat";
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+h3 {
+    color: #6d4e19;
+    line-height: 1.5em;
+    font-family: "MontSerrat";
+    font-weight: bolder;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #6d4e19;
+    line-height: 1.5em;
+    font-family: "MontSerrat";
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+p,
+h4,
+legend {
+    color: #888;
+}
+
+h4,
+legend {
+    line-height: 1.5em;
+    font-size: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* titleBar */
+#titleBar {
+    position: fixed;
+    visibility: hidden;
+    left: 0;
+    top: 0;
+    width: 102%;
+    z-index: 100;
+    background: black;
+    height: 6vh;
+}
+
+.rd {
+    color: white;
+    font-weight: 700;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.fa-bars {
+    position: absolute;
+    cursor: pointer;
+    background-color: #fbad27;
+    height: 6vh;
+    width: 50px;
+    text-align: center;
+    padding-top: 4px;
+    right: 0;
+    top: 0;
+}
+
+
+
+/* Image du haut + texte intro */
+
+.principaleImg {
+    width: 100%;
+    height: auto;
+}
+
+#sectionUn {
+    background-color: rgba(229, 222, 222, 0.4);
+    height: 220px;
+}
+
+.titrePrincipal {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.textPrincipal {
+    text-align: center;
+}
+
+
+
+/* section Deux propositions d'accompagnement = presta */
+
+.sectionDeux {
+    height: auto;
+}
+
+#accompagnements {
+    margin-top: 5vh;
+    border: 3px solid #6d4e19;
+    width: 50%;
+    text-align: center;
+
+}
+
+.couleurPresta {
+    color: #6d4e19;
+
+}
+
+.fa-circle {
+    color: #fbad27;
+    font-size: x-small;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+#inge {
+    margin-top: 5vh;
+
+}
+
+.ingenierie,
+.certification,
+.qualite {
+    margin-left: -6%;
+    margin-top: 3%;
+}
+
+
+/* images sur accompagnement */
+
+
+.centrage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: flex;
+    box-shadow: -14px 10px 5px 0px #fbad27;
+}
+
+.waxUn,
+.waxDeux,
+.waxTrois {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, .4);
+}
+
+.symboleUn,
+.symboleDeux,
+.symboleTrois {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin-left: -110px;
+
+}
+
+/* sectionTrois de présentation */
+#sectionTrois {
+    height: 420px;
+}
+
+.courousel-inner {
+    height: 400px;
+}
+
+#presentation {
+    margin-top: 30px;
+    border: 3px solid #6d4e19;
+    width: 50%;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-left: 10%;
+}
+
+.exp,
+#experiences>ul {
+    color: #ce880f;
+}
+
+#valeurs>ul {
+    color: #6d4e19;
+}
+
+#experiences>ul,
+#valeurs>ul {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 10%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.ligneExp {
+    margin-left: 10%;
+    background-image: url("images/wax6.jpeg");
+    height: 13px;
+    width: 200px;
+}
+
+.ligneVal {
+    margin-left: 10%;
+    background-image: url("images/wax5.jpeg");
+    height: 20px;
+    width: 200px;
+}
+
+
+
+/* veille */
+
+
+#veille {
+    margin-top: 30px;
+    text-align: center;
+    border: 3px solid #6d4e19;
+    width: 50%;
+
+}
+
+
+/* Veille : Feature Icons */
+
+.iconVeille {
+    margin-top: 1vh;
+    line-height: 2em;
+}
+
+ul.feature-icons {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.feature-icons li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0.35em 0 0 3.5em;
+    position: relative;
+    width: 100%;
+    align-items: baseline;
+
+}
+
+ul.feature-icons li:before {
+    background: #ce880f;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+ul.feature-icons p {
+    margin-top: 1vh;
+}
+
+.art,
+.formation,
+.art2 {
+    font-weight: 400;
+}
+
+.art:hover,
+.formation:hover,
+.art2:hover {
+    color: #fbad27;
+}
+
+.cadreVeille {
+    margin-top: -30px;
+    margin-left: -65px;
+}
+
+.contenuVeille {
+    line-height: 1em;
+    width: 100px;
+}
+
+.noir {
+    color: black;
+}
+
+
+/* contact */
+
+.contact {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+
+}
+
+.points {
+    color: #6d4e19;
+    font-size: 1.75rem;
+    line-height: 1.5em;
+    margin-left: 5px;
+}
+
+.mail {
+    color: #fbad27;
+    font-size: 1.75rem;
+    line-height: 1.5em;
+    margin-left: 5px;
+}
+
+
+.realisation {
+    font-size: 1.25rem;
+    color: #6d4e19;
+    line-height: 1.5em;
+}
+
+
+
+/* header*/
+#barre {
+    background-image: url(images/SergeyPesterev.jpeg);
+    background-size: cover;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    transform: translateX(0%);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.imageAvatar img {
+    margin: auto;
+    width: 65%;
+    border-radius: 100%;
+    display: block;
+    margin-top: 10vh;
+
+}
+
+#logo {
+    margin-top: -2vh;
+    filter: drop-shadow(1px 1px 4px rgba(255, 255, 255, .8));
+}
+
+#menuBarre ul {
+    padding-left: 0;
+    padding-top: 50px;
+}
+
+.menuElt-actualites {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.menuElt {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bolder;
+
+}
+
+.menuElt:hover {
+    background-color: #ce880f;
+    background-size: auto 40px;
+}
+
+#menuBarre a {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+
+/*footer*/
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+ul.icons {
+    width: 100%;
+    height: 50px;
+}
+
+.fab,
+.fas {
+
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ce880f;
+    text-decoration: none;
+}
+
+#mentions {
+    height: 350px;
+    margin-top: 10px;
+    color: rgba(229, 222, 222, 0.4);
+}
+
+.mentions {
+    display: none;
+    visibility: hidden;
+    font-size: 5px;
+}
+
+.mentions-contenu a {
+    color: #888;
+}
+
+
+
+/* MEDIA QUERIES  */
+@media screen and (min-width: 319px) and (max-width: 479px) {
+
+    h1,
+    h5 {
+        font-size: 1.20rem;
+    }
+
+    #page {
+        margin-left: -10px;
+        margin-top: 25px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    #accompagnements,
+    #presentation,
+    #veille {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    .fa-bars {
+        margin-right: 7px;
+    }
+
+    #sectionTrois {
+        height: 600px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .fa-bars {
+        margin-right: 12px;
+    }
+}
+
+/* MEDIA QUERIES titre et barre menu  */
+
+
+@media screen and (min-width: 319px) and (max-width: 479px) {
+
+    .logo {
+        width: 100px;
+    }
+
+    #barre {
+        font-size: 0.5em;
+    }
+
+    ul.icons {
+        padding-right: 0px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .menuElt {
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
+
+/* MEDIA QUERIES sectionUn  */
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    #sectionUn {
+        height: 290px;
+    }
+
+    h1,
+    h5 {
+        line-height: 1.75em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    #sectionUn {
+        height: 7%;
+    }
+
+    .titrePrincipal {
+        margin-top: 0vh;
+    }
+
+    .textPrincipal {
+        font-size: smaller;
+        height: 10vh;
+    }
+
+}
+
+/* MEDIA QUERIES sectionDeux */
+
+
+@media only screen and (min-width: 959px) and (max-width: 1280px) {
+    .fa-circle {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .fa-circle {
+        margin-left: 0px;
+    }
+
+    .image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .image:hover {
+        box-shadow: -15px 30px 10px 0px #fbad27;
+    }
+
+    h4 {
+        margin-left: 35px;
+    }
+
+    .symboleUn,
+    .symboleDeux,
+    .symboleTrois {
+        width: 100px;
+        height: 100px;
+        margin-left: -100px;
+    }
+
+    #accompagnements {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .image {
+        margin-left: -40%;
+        margin-right: auto;
+    }
+
+    #accompagnements {
+        width: 100%;
+        text-align: center;
+    }
+
+    .centrage {
+        margin-left: 125px;
+    }
+
+    .smart {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .portable {
+        margin-bottom: -60px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .image {
+        margin-left: 33%;
+    }
+
+    #accompagnements {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fa-circle {
+        margin-left: 47%;
+    }
+
+    h5 {
+        margin-left: 10%;
+    }
+}
+
+/* MEDIA QUERIES sectionTrois Présentation  */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    #experiences>ul,
+    #valeurs>ul {
+
+        text-align: left;
+
+    }
+}
+
+
+/* MEDIA QUERIES sectionQuatre Veille */
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    #sectionQuatre {
+        margin-bottom: -40px;
+    }
+
+    .cadreVeille {
+        height: 20vh;
+        margin-left: -80px;
+    }
+
+    .contenuVeille {
+        line-height: 1rem;
+        width: 100%;
+    }
+
+}
+
+
+/* MEDIA QUERIES section contact et réalisation */
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+    .realisation {
+        margin-left: -4px;
+
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    h5>.contact {
+        margin-top: 5px;
+    }
+
+    #contact {
+        margin-bottom: -30px;
+    }
+
+    .cont {
+        margin-top: 7px;
+    }
+
+    .points {
+        visibility: hidden;
+    }
+
+    .mail {
+        margin-left: -10px;
+        font-size: 1.25rem;
+        margin-top: 3px;
+    }
+
+    h5 {
+        font-size: 1rem;
+
+    }
+
+    .real {
+        margin-bottom: 45px;
+    }
+}

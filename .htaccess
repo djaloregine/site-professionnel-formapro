@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !^/siteNew RDFP/
+RewriteRule ^(.*)$ /siteNew RDFP/$1 [L,R=301]
