@@ -20,6 +20,15 @@ h5 {
     font-size: 1.75rem;
 }
 
+.h1Bis {
+    color: white;
+    line-height: 2em;
+    font-family: "MontSerrat";
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+
 h6 {
     color: white;
     line-height: 2em;
@@ -727,4 +736,45 @@ a:hover {
     .real {
         margin-bottom: 45px;
     }
+}
+
+
+
+/* PAGES DEUX */
+
+#sectionOnze {
+    background-color: rgba(229, 222, 222, 0.4);
+    height: 350px;
+    align-content: center;
+}
+
+.titreTransfo {
+    color: #ce880f;
+    font-size: 2rem;
+    margin-top: 3vh;
+
+    text-align: center;
+    transition: transform;
+    transform: scale(1)
+}
+
+.titreTransfo :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #6d4e19;
+}
+
+.titreTransfo__contenu {
+    color: #ce880f;
+    font-size: 15px;
+    text-align: center;
+}
+
+.positionnement {
+    margin-top: 5vh;
+}
+
+.modeIntervention.modeintervention__retrait {
+    margin-left: 50px;
+    text-align: justify;
 }
